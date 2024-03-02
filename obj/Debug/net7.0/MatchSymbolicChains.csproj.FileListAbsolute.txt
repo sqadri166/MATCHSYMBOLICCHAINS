@@ -1,0 +1,15 @@
+/Users/syedqadri/Documents/Development/MatchSymbolicChains/bin/Debug/net7.0/MatchSymbolicChains
+/Users/syedqadri/Documents/Development/MatchSymbolicChains/bin/Debug/net7.0/MatchSymbolicChains.deps.json
+/Users/syedqadri/Documents/Development/MatchSymbolicChains/bin/Debug/net7.0/MatchSymbolicChains.runtimeconfig.json
+/Users/syedqadri/Documents/Development/MatchSymbolicChains/bin/Debug/net7.0/MatchSymbolicChains.dll
+/Users/syedqadri/Documents/Development/MatchSymbolicChains/bin/Debug/net7.0/MatchSymbolicChains.pdb
+/Users/syedqadri/Documents/Development/MatchSymbolicChains/obj/Debug/net7.0/MatchSymbolicChains.csproj.AssemblyReference.cache
+/Users/syedqadri/Documents/Development/MatchSymbolicChains/obj/Debug/net7.0/MatchSymbolicChains.GeneratedMSBuildEditorConfig.editorconfig
+/Users/syedqadri/Documents/Development/MatchSymbolicChains/obj/Debug/net7.0/MatchSymbolicChains.AssemblyInfoInputs.cache
+/Users/syedqadri/Documents/Development/MatchSymbolicChains/obj/Debug/net7.0/MatchSymbolicChains.AssemblyInfo.cs
+/Users/syedqadri/Documents/Development/MatchSymbolicChains/obj/Debug/net7.0/MatchSymbolicChains.csproj.CoreCompileInputs.cache
+/Users/syedqadri/Documents/Development/MatchSymbolicChains/obj/Debug/net7.0/MatchSymbolicChains.dll
+/Users/syedqadri/Documents/Development/MatchSymbolicChains/obj/Debug/net7.0/refint/MatchSymbolicChains.dll
+/Users/syedqadri/Documents/Development/MatchSymbolicChains/obj/Debug/net7.0/MatchSymbolicChains.pdb
+/Users/syedqadri/Documents/Development/MatchSymbolicChains/obj/Debug/net7.0/MatchSymbolicChains.genruntimeconfig.cache
+/Users/syedqadri/Documents/Development/MatchSymbolicChains/obj/Debug/net7.0/ref/MatchSymbolicChains.dll

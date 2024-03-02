@@ -1,11 +1,8 @@
-
-
 using System;
+using System.Collections.Generic;
 
 
 
-// DoNot using Arrays just 
-using System;
 
 public class Matrix 
 {
@@ -13,7 +10,7 @@ public class Matrix
    
 
 
-   public  NumberRows {get;set;}
+   public int NumberRows {get;set;}
    public int NumberOfCols {get;set;} 
 
 

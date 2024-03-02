@@ -4,7 +4,7 @@ using MatchedProfileImages;
 using System;
 using System.Collections.Generic;
 
-public class Box<T> where T : 
+public class Box
 {
     public int BoxID {get;set;}
     public ImageClass ImageClassification {get;set;}
@@ -21,7 +21,6 @@ public class Box<T> where T :
 
     public Word Alphabet {get;set;} 
 
-    public static T GetBoxValue()
 
 
 

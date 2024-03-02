@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/syedqadri/Documents/Development/MatchSymbolicChains/MatchSymbolicChains.csproj": {}
+    "/Users/syedqadri/Documents/MATCHSYMBOLICCHAINS/MatchSymbolicChains.csproj": {}
   },
   "projects": {
-    "/Users/syedqadri/Documents/Development/MatchSymbolicChains/MatchSymbolicChains.csproj": {
+    "/Users/syedqadri/Documents/MATCHSYMBOLICCHAINS/MatchSymbolicChains.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/syedqadri/Documents/Development/MatchSymbolicChains/MatchSymbolicChains.csproj",
+        "projectUniqueName": "/Users/syedqadri/Documents/MATCHSYMBOLICCHAINS/MatchSymbolicChains.csproj",
         "projectName": "MatchSymbolicChains",
-        "projectPath": "/Users/syedqadri/Documents/Development/MatchSymbolicChains/MatchSymbolicChains.csproj",
+        "projectPath": "/Users/syedqadri/Documents/MATCHSYMBOLICCHAINS/MatchSymbolicChains.csproj",
         "packagesPath": "/Users/syedqadri/.nuget/packages/",
-        "outputPath": "/Users/syedqadri/Documents/Development/MatchSymbolicChains/obj/",
+        "outputPath": "/Users/syedqadri/Documents/MATCHSYMBOLICCHAINS/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/syedqadri/.nuget/NuGet/NuGet.Config"

@@ -28,3 +28,15 @@
 /Users/syedqadri/Documents/MATCHSYMBOLICCHAINS/obj/Debug/net7.0/MatchSymbolicChains.pdb
 /Users/syedqadri/Documents/MATCHSYMBOLICCHAINS/obj/Debug/net7.0/MatchSymbolicChains.genruntimeconfig.cache
 /Users/syedqadri/Documents/MATCHSYMBOLICCHAINS/obj/Debug/net7.0/ref/MatchSymbolicChains.dll
+/Users/syedqadri/Documents/MATCHSYMBOLICCHAINS/bin/Debug/net7.0/Google.Protobuf.dll
+/Users/syedqadri/Documents/MATCHSYMBOLICCHAINS/bin/Debug/net7.0/MethodBoundaryAspect.dll
+/Users/syedqadri/Documents/MATCHSYMBOLICCHAINS/bin/Debug/net7.0/Newtonsoft.Json.dll
+/Users/syedqadri/Documents/MATCHSYMBOLICCHAINS/bin/Debug/net7.0/OneOf.dll
+/Users/syedqadri/Documents/MATCHSYMBOLICCHAINS/bin/Debug/net7.0/OpenCV.Net.dll
+/Users/syedqadri/Documents/MATCHSYMBOLICCHAINS/bin/Debug/net7.0/Protobuf.Text.dll
+/Users/syedqadri/Documents/MATCHSYMBOLICCHAINS/bin/Debug/net7.0/Razorvine.Pickle.dll
+/Users/syedqadri/Documents/MATCHSYMBOLICCHAINS/bin/Debug/net7.0/Serilog.dll
+/Users/syedqadri/Documents/MATCHSYMBOLICCHAINS/bin/Debug/net7.0/Serilog.Sinks.Console.dll
+/Users/syedqadri/Documents/MATCHSYMBOLICCHAINS/bin/Debug/net7.0/Tensorflow.Binding.dll
+/Users/syedqadri/Documents/MATCHSYMBOLICCHAINS/obj/Debug/net7.0/MatchSymbolicChains.sourcelink.json
+/Users/syedqadri/Documents/MATCHSYMBOLICCHAINS/obj/Debug/net7.0/MatchSym.51AC01D1.Up2Date

@@ -3,6 +3,12 @@ using System.Collections.Generic;
 using MatchedProfileImages;
 namespace MatchedProfileImages 
 {
+
+// Generate thousands of actions of Deaf Symbols 
+/// <summary>
+
+/// </summary>
+
 public class GraphNode {
 
 	// No. of vertices

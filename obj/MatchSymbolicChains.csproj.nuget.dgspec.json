@@ -44,6 +44,10 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "OpenCV": {
+              "target": "Package",
+              "version": "[2.4.11, )"
+            },
             "OpenCV.Net": {
               "target": "Package",
               "version": "[3.4.2, )"

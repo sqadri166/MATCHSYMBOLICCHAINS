@@ -43,6 +43,7 @@ public class ImageClass
 {
     public ImageClassificationCode LookForClassificationCode {get;set;}
     public CultureClassificationCode CurrentCultureClassificationCode {get;set;}
+    public int ImageID {get;set;}
     
     public byte[]? ImageSavedinRepo {get;set;}
 

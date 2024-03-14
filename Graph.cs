@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Data;
 using MatchedProfileImages;
 namespace MatchedProfileImages 
 {
@@ -43,17 +44,63 @@ public class GraphNode {
 		_adj[v].AddLast(w);
 	}
 
-
-   // Add imgage Profile to Serach millions of images
-   // Adding Profile Images
-    public void AddEdge(int v ,  ImageClass matchImageProfile)
+	public void AddEdge(int v ,ImageClass imageClass)
 	{
-        _adjMatched[v].AddLast(matchImageProfile);
+
+		_adjMatched[v].AddLast(imageClass);
+
 
 	}
 
 
+   // Add imgage Profile to Serach millions of images
+   // Adding Profile Images
+    
 
+
+    public List<ImageClass> FindAddSpecificImagesAtVertex(int vertex , ImageClass imageClass)
+	{
+		List<ImageClass> imageClasses = new List<ImageClass>();
+		// visited(By default set as false)
+		bool[] visited = new bool[_V];
+		for (int i = 0; i < _V; i++)
+			visited[i] = false;
+
+		// Create a queue for BFS
+		LinkedList<ImageClass> queue = new LinkedList<ImageClass>();
+
+		// Mark the current node as
+		// visited and enqueue it
+		visited[vertex] = true;
+		queue.AddLast(imageClass);
+	
+		while (queue.Any()) {
+
+			// Dequeue a vertex from queue
+			// and print it
+			imageClass = queue.First();
+			queue.RemoveFirst();
+            
+			// Get all adjacent vertices of the
+			// dequeued vertex s.
+			// If an adjacent has not been visited,
+			// then mark it visited and enqueue it
+			LinkedList<ImageClass> list = _adjMatched[vertex];
+
+			foreach(var val in list)
+			{
+				if (!visited[val.ImageID]) {
+					visited[val.ImageID] = true;
+					queue.AddLast(val);
+					imageClasses.Add(val);
+				}
+			}
+		}
+        return imageClasses;
+
+
+
+	}
 	// Prints BFS traversal from a given source s
 	public void BFS(int s)
 	{

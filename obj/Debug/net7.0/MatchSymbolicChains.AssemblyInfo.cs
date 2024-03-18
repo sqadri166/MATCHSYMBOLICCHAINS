@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MatchSymbolicChains")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d30cc65847540169e535c83e7fd782852fbe45fe")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+df8a4cdcd8e950942360498a983746d7ba879ef2")]
 [assembly: System.Reflection.AssemblyProductAttribute("MatchSymbolicChains")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MatchSymbolicChains")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

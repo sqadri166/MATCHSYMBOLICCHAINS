@@ -12,7 +12,7 @@ public class Box
     public string ImagePath {get;set;}
     public  String WordOrLetterCorresposnding {get;set;}
 
-    
+    public bool ApplyEncrytionCodeOnBox {get;set;}
     public int RowIndex {get;set;}
 
     public int ColIndex {get;set;}

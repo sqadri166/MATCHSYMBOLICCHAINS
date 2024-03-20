@@ -10,6 +10,7 @@ namespace MatchedProfileImages
 
 /// </summary>
 
+// This Grpah will help adding edges of Data and Visting Them
 public class GraphNode {
 
 	// No. of vertices

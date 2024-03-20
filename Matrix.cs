@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 
 
-
+// This Ma
 public class Matrix 
 {
 
@@ -48,12 +48,25 @@ public class Matrix
 
 
 
+
+
+
+public List<ImageClass> rotateMatrixBox(int m ,int n , ImageClass[][] classes)
+{
+    
+       
+
+}
+
+
+
+
+
+
 public List<Box> rotateMatrixBox(int m ,int n , int[][] box)
 {
 
-    // get a desk continue at home 
-    // Just focus on image detection
-    // not implmented exception 
+
 
     return new List<Box>();
 

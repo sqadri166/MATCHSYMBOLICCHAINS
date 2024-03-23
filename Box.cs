@@ -9,6 +9,9 @@ public class Box
     public int BoxID {get;set;}
     public ImageClass ImageClassification {get;set;}
 
+    public LexicalToken lexicalToken {get;set;}
+
+
     public string ImagePath {get;set;}
     public  String WordOrLetterCorresposnding {get;set;}
 

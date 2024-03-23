@@ -5,7 +5,7 @@ using MatchedProfileImages;
 interface INeuralGraph<T> where T : GraphNode
 {
      public GraphNode FindGrapNodeById(int nodeTagID);
-     public GraphNode FindGraphNodeBy(string searchQueryRule);
+     public GraphNode FindGraphNodeBy(SearchRuleCriteria searchQueryRule);
 
      public GraphNode AddGraphNode(GraphNode node);
 

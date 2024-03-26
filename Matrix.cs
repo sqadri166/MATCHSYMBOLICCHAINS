@@ -67,7 +67,7 @@ public List<Box> FindSpecificNodeBoxes(string tagValue)
    return selectedNodes;   
 }
 
-public List<string> WordAnagramFinderByRotation(int m ,int n , int row , int col , string sentence)
+public List<ImageClass> WordAnagramFinderByRotation(int m ,int n , int row , int col ,  string findWord)
 {
 
      int R = NumberRows ;
@@ -80,18 +80,19 @@ public List<string> WordAnagramFinderByRotation(int m ,int n , int row , int col
       Box currentPoint =  boxes.Find(p=>p.RowIndex == m && p.ColIndex == n);
        // start from here 
      // move from current box
-     foreach(Box box in boxes)
-     {
-            
-           
+     // NOW RORTATE AND RETURN ANALGRAMS 
+    
 
-     }
+     /// <summary>
+     /// Not implemented return all binaries with all Anagrams word exist in dictionary
+     /// </summary>
+     /// <param name="m"></param>
+     /// <param name="n"></param>
+     /// <param name="classes"></param>
+     /// <returns></returns>
 
 
-
-
-
-
+   return new List<ImageClass>();
 
 
 }

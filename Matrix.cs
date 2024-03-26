@@ -2,8 +2,11 @@ using System;
 using System.Collections.Generic;
 
 
-
-// This Ma
+/// <summary>
+/// Blue Hawks will be better then Chat GPT and provide refinements 
+/// Blue Hawks AI 
+/// </summary>
+/// // This Ma
 public class Matrix 
 {
 
@@ -47,10 +50,51 @@ public class Matrix
 // Rotating Data millions of time per seconds
 
 
+/// <summary>
+/// Find by Tag or Node Value
+/// </summary>
+/// <param name="tagValue"></param>
+/// <returns></returns> <summary>
+/// 
+/// </summary>
+/// <param name="tagValue"></param>
+/// <returns></returns>
+public List<Box> FindSpecificNodeBoxes(string tagValue)
+{
+   List<Box> selectedNodes = new List<Box>();
+   selectedNodes =  boxes.FindAll(p=>p.BoxTagID == tagValue );
+
+   return selectedNodes;   
+}
+
+public List<string> WordAnagramFinderByRotation(int m ,int n , int row , int col , string sentence)
+{
+
+     int R = NumberRows ;
+     int C = NumberOfCols;
+     int prev, curr;
+      // Replace Boxes 
+
+      
+      // find starting box
+      Box currentPoint =  boxes.Find(p=>p.RowIndex == m && p.ColIndex == n);
+       // start from here 
+     // move from current box
+     foreach(Box box in boxes)
+     {
+            
+           
+
+     }
 
 
 
 
+
+
+
+
+}
 public List<ImageClass> rotateMatrixBox(int m ,int n , ImageClass[][] classes)
 {
     // Not imeplmented ...

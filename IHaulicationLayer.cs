@@ -11,7 +11,7 @@ using MatchedProfileImages;
 interface IHualicinationLayer {
        List<SentenceAnalysis>   ProcessAndIndentifyHaulicnatedText(GraphNode graphNode);
 
-       List<ImageClass>   ProcessAndIndentifyHaulicnatedImages(GraphNode graphNode);
+        List<ImageClass>   ProcessAndIndentifyHaulicnatedImages(GraphNode graphNode);
   
 
 

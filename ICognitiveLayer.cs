@@ -1,6 +1,7 @@
 using System ;
 using System.Collections.Generic;
 using Tensorflow;
+using Tensorflow.Contexts;
 
 
 interface ICognitiveLayer<T> where T : CognitiveAnalytics {
@@ -13,6 +14,9 @@ interface ICognitiveLayer<T> where T : CognitiveAnalytics {
 
 internal class CognitiveAnalytics
 {
+   
+
+
 }
 
 public interface ICognitiveBehavior

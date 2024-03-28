@@ -9,9 +9,11 @@ using MatchedProfileImages;
 /// 
 /// </summary>
 interface IHualicinationLayer {
-       List<SentenceAnalysis>   ProcessAndIndentifyHaulicnatedText(GraphNode graphNode);
+        List<SentenceAnalysis>   ProcessAndIndentifyHaulicnatedText(GraphNode graphNode , ICognitiveBehavior behavior);
 
-        List<ImageClass>   ProcessAndIndentifyHaulicnatedImages(GraphNode graphNode);
+        List<ImageClass>   ProcessAndIndentifyHaulicnatedImages(GraphNode graphNode, ICognitiveBehavior applybehavior);
+
+
   
 
 

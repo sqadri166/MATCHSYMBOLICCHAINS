@@ -4,6 +4,18 @@ using Tensorflow;
 using Tensorflow.Contexts;
 
 
+ interface ICognitiveAnalytics<T> where T : CognitiveBrainAreaClassification 
+{
+   
+      void PerformCognitiveAnalysis(ICognitiveBehavior cognitiveBehavior , CognitiveAnalytics cognitiveAnalytics);
+
+
+}
+
+public class CognitiveAnalytics
+{
+}
+
 interface ICognitiveLayer<T> where T : CognitiveAnalytics {
 
    void PerformLeftNeuralCognitiveFunctions(ICognitiveBehavior cognitiveBehavior , CognitiveAnalytics cognitiveAnalytics);
@@ -12,12 +24,7 @@ interface ICognitiveLayer<T> where T : CognitiveAnalytics {
 
 }
 
-internal class CognitiveAnalytics
-{
-   
 
-
-}
 
 public interface ICognitiveBehavior
 {

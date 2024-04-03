@@ -1,26 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "/Users/syedqadri/Documents/MATCHSYMBOLICCHAINS/MatchSymbolicChains.csproj": {}
+    "C:\\Users\\qadris432225\\source\\repos\\Dev\\Test\\MATCHSYMBOLICCHAINS\\MatchSymbolicChains.csproj": {}
   },
   "projects": {
-    "/Users/syedqadri/Documents/MATCHSYMBOLICCHAINS/MatchSymbolicChains.csproj": {
+    "C:\\Users\\qadris432225\\source\\repos\\Dev\\Test\\MATCHSYMBOLICCHAINS\\MatchSymbolicChains.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/syedqadri/Documents/MATCHSYMBOLICCHAINS/MatchSymbolicChains.csproj",
+        "projectUniqueName": "C:\\Users\\qadris432225\\source\\repos\\Dev\\Test\\MATCHSYMBOLICCHAINS\\MatchSymbolicChains.csproj",
         "projectName": "MatchSymbolicChains",
-        "projectPath": "/Users/syedqadri/Documents/MATCHSYMBOLICCHAINS/MatchSymbolicChains.csproj",
-        "packagesPath": "/Users/syedqadri/.nuget/packages/",
-        "outputPath": "/Users/syedqadri/Documents/MATCHSYMBOLICCHAINS/obj/",
+        "projectPath": "C:\\Users\\qadris432225\\source\\repos\\Dev\\Test\\MATCHSYMBOLICCHAINS\\MatchSymbolicChains.csproj",
+        "packagesPath": "C:\\Users\\qadris432225\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\qadris432225\\source\\repos\\Dev\\Test\\MATCHSYMBOLICCHAINS\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/syedqadri/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\qadris432225\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "/usr/local/share/dotnet/library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -33,11 +39,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -68,26 +69,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[7.0.16, 7.0.16]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.osx-arm64",
-              "version": "[7.0.16, 7.0.16]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[7.0.16, 7.0.16]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.201/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

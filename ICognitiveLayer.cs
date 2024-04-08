@@ -12,6 +12,13 @@ using Tensorflow.Contexts;
 
 }
 
+internal class CognitiveBrainAreaClassification
+{
+
+
+
+}
+
 public class CognitiveAnalytics
 {
 }

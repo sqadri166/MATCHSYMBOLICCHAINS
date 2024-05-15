@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Tgv6sSYKVylXUrsnqtg7Yym5680Q3F6vZlj7oVdz7glhnnRzJbzr0eUWiMp9AWUZNK1Vf/D7CAkHSTegPoMEsA==",
+  "dgSpecHash": "ANhM1EOxzqcigfPmIbpFweETwDLDxAknN/vJPaPvIA/5f56R17hVyL23w55uIoyJLcwDIU11KxfjUp3tgvL7bA==",
   "success": true,
   "projectFilePath": "/Users/syedqadri/Documents/MATCHSYMBOLICCHAINS/MatchSymbolicChains.csproj",
   "expectedPackageFiles": [
@@ -17,9 +17,9 @@
     "/Users/syedqadri/.nuget/packages/serilog.sinks.console/4.1.0/serilog.sinks.console.4.1.0.nupkg.sha512",
     "/Users/syedqadri/.nuget/packages/system.memory/4.5.5/system.memory.4.5.5.nupkg.sha512",
     "/Users/syedqadri/.nuget/packages/tensorflow.net/0.150.0/tensorflow.net.0.150.0.nupkg.sha512",
-    "/Users/syedqadri/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.16/microsoft.aspnetcore.app.ref.7.0.16.nupkg.sha512",
-    "/Users/syedqadri/.nuget/packages/microsoft.netcore.app.host.osx-arm64/7.0.16/microsoft.netcore.app.host.osx-arm64.7.0.16.nupkg.sha512",
-    "/Users/syedqadri/.nuget/packages/microsoft.netcore.app.ref/7.0.16/microsoft.netcore.app.ref.7.0.16.nupkg.sha512"
+    "/Users/syedqadri/.nuget/packages/microsoft.netcore.app.ref/7.0.18/microsoft.netcore.app.ref.7.0.18.nupkg.sha512",
+    "/Users/syedqadri/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.18/microsoft.aspnetcore.app.ref.7.0.18.nupkg.sha512",
+    "/Users/syedqadri/.nuget/packages/microsoft.netcore.app.host.osx-arm64/7.0.18/microsoft.netcore.app.host.osx-arm64.7.0.18.nupkg.sha512"
   ],
   "logs": []
 }

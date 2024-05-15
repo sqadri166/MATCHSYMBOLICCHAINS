@@ -1,10 +1,6 @@
-using System ;
-using System.Collections.Generic;
-using Tensorflow;
-using Tensorflow.Contexts;
+using MatchedProfileImages;
 
-
- interface ICognitiveAnalytics<T> where T : CognitiveBrainAreaClassification 
+interface ICognitiveAnalytics<T> where T : CognitiveBrainAreaClassification 
 {
    
       void PerformCognitiveAnalysis(ICognitiveBehavior cognitiveBehavior , CognitiveAnalytics cognitiveAnalytics);
@@ -12,31 +8,29 @@ using Tensorflow.Contexts;
 
 }
 
-internal class CognitiveBrainAreaClassification
+
+
+interface CognitiveBrainAreaClassification
 {
+      INeuralGraph<GraphNode> IdentifyNeuralNetwork(CognitiveAreaClassification classification ) ;
 
 
 
+}
+
+public class CognitiveAreaClassification
+{
+      public Guid? AreaClassificationID   { get; set; }
+      List<Matrix> AreaClassificatonMatrix { get; set; }
 }
 
 public class CognitiveAnalytics
 {
-}
+      public List<GraphNode> GNNWorkFlow {get;set;}
 
-interface ICognitiveLayer<T> where T : CognitiveAnalytics {
-
-   void PerformLeftNeuralCognitiveFunctions(ICognitiveBehavior cognitiveBehavior , CognitiveAnalytics cognitiveAnalytics);
-
-
+      public bool Processed {get;set;}
 
 }
 
 
 
-public interface ICognitiveBehavior
-{
-
-
-
-
-}

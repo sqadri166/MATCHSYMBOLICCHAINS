@@ -1,5 +1,19 @@
 using MatchedProfileImages;
 
+/// <summary>
+/// ALL C++ Players and Layers 
+/// A Player is AI ACTION PLAYER 
+/// 
+/// </summary>
+/// <typeparam name="T"></typeparam>
+interface ICognitiveLayer<T> where T : CognitiveAnalytics {
+
+   void PerformLeftNeuralCognitiveFunctions(ICognitiveBehavior cognitiveBehavior , CognitiveAnalytics cognitiveAnalytics);
+
+
+
+}
+
 interface ICognitiveAnalytics<T> where T : CognitiveBrainAreaClassification 
 {
    

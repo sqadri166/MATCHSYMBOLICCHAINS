@@ -3,7 +3,7 @@ Generate Images Precision and Sentences
 
 This algorithm will be used to generate Images and corresponding text Translations 
 This will use pure TensorFlow nuget packages and 
-Its an engineering limited Generative AI platform from begining using Tensorslow rather then consuming other 
+Its an engineering with limited Generative AI platform from begining using Tensorflow rather then consuming other 
 Pure Tensorflow and Numpies Keras 
 Pure Open CV imaging 
 Pure Reinforcement algorithm techniques 

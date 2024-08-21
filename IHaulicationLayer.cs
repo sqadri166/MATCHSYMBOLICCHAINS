@@ -9,7 +9,7 @@ using MatchedProfileImages;
 ///  Rudino Bot Chips AI 
 /// Software Architect Designed and Flow By Syed Qadri Blue machines Inc
 /// </summary> <summary>
-/// 
+/// imeplement Django Python 
 /// </summary>
 interface IHualicinationLayer {
         List<SentenceAnalysis>   ProcessAndIndentifyHaulicnatedText(GraphNode graphNode , ICognitiveBehavior behavior);

@@ -34,4 +34,7 @@ public class BotAction
         public Guid CurrentBotActionID {get;set;}
         public List<string> ActionSteps {get;set;}
 
+        public int BotActionstatus {get;set;}
+
+
 }

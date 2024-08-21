@@ -2,7 +2,11 @@ using Tensorflow;
 using Tensorflow.Queues;
 
 
-
+/// <summary>
+/// Use Tensor Flow C++ to generate and identify image and send to BOT Signal Rudino API C++
+/// </summary> <summary>
+/// 
+/// </summary>
 public class ImageCutDimensions 
 {
 

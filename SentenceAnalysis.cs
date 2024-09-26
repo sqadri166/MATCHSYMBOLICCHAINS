@@ -15,9 +15,13 @@ public class SentenceAnalysis
 
     public DateTime SentenceTimeStampSubmitted {get;set;}
 
-    public ParsedData Parse {get;set;};
+    public ParsedData Parse {get;set;}
 
 
 
 
+}
+
+public class ParsedData
+{
 }

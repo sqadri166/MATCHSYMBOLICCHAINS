@@ -11,7 +11,7 @@ public interface ICognitiveBehavior
         public CognitiveAnalytics FindActionBehavior(CognitiveAnalytics cognitiveAnalytics);
     public CognitiveAnalytics FindBodyAttributes(CognitiveAnalytics cognitiveAnalytics) ; 
     public CognitiveAnalytics FindNeuralActionForBot(CognitiveAnalytics cognitiveAnalytics , Bot bot) ;
-
+    
 
 
 }

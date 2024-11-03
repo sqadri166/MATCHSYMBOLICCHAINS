@@ -3,8 +3,23 @@ using OpenCV.Net;
 interface IReinforcementLearning 
 {
 
-       ReinforceDataAnalytics GenerateAnalyticsFromData(ModelData[] modelData);
-       ReinforceDataAnalytics GenerateFilteredAnalytics(ModelData[] modelData);
+       ReinforceDataAnalytics GenerateAnalyticsFromData(ModelData[] modelData , LearningAgent learningAgent );
+       ReinforceDataAnalytics GenerateFilteredAnalytics(ModelData[] modelData , LearningAgent learningAgent);
+
+}
+
+public class LearningAgent
+{
+     public required ActionPerformed[] Rewards {get;set;}
+     
+
+
+}
+
+public class ActionPerformed
+{
+    public required ModelData Action {get;set;}
+    public decimal RewardPercentage {get;set;}
 
 }
 
